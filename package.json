@@ -1,6 +1,7 @@
 {
   "name": "personal-blog",
   "version": "1.0.0",
+  "type": "module",
   "description": "Personal tech blog with notes and projects",
   "scripts": {
     "docs:dev": "vitepress dev docs",
