@@ -1,0 +1,102 @@
+# =============================================
+# Windows 系统文件
+# =============================================
+[3D Objects/]
+[Contacts/]
+[Desktop/]
+[Downloads/]
+[Favorites/]
+[Links/]
+[Music/]
+[Saved Games/]
+[Searches/]
+[Videos/]
+NTUSER.DAT*
+ntuser.dat*
+AppData/
+
+# =============================================
+# 用户配置文件（误入追踪的）
+# =============================================
+.cc-switch/
+.claude/
+.codex/
+.config/
+.copilot/
+.lark-cli/
+.local/
+.profile
+.vscode-shared/
+.vscode/
+.workbuddy-key-fallback/
+.workbuddy/
+.zshrc
+
+# =============================================
+# 缓存和临时文件
+# =============================================
+.cache/
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =============================================
+# 依赖
+# =============================================
+node_modules/
+package-lock.json
+
+# =============================================
+# 构建产物
+# =============================================
+.vitepress/dist/
+docs/.vitepress/dist/
+*.lean.js
+
+# =============================================
+# 图片和媒体（示例文件）
+# =============================================
+image.png
+image2.jpeg
+image3.png
+
+# =============================================
+# 默认忽略所有
+# =============================================
+*
+
+# =============================================
+# 手动保留博客相关文件（排除上述构建产物）
+# =============================================
+# GitHub 工作流
+!.github/
+.github/*
+!.github/workflows/
+.github/workflows/*
+!.github/workflows/deploy.yml
+
+# VitePress 配置
+!.vitepress/
+.vitepress/*
+!.vitepress/config.js
+
+# 文档目录
+!docs/
+docs/*
+!docs/about.md
+!docs/index.md
+!docs/notes/
+docs/notes/*
+!docs/notes/*.md
+!docs/plans/
+docs/plans/*
+!docs/plans/*.md
+!docs/.vitepress/
+docs/.vitepress/*
+!docs/.vitepress/config.js
+
+# 根目录的博客配置文件
+!package.json
+!CLAUDE.md
+!.gitignore
